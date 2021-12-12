@@ -1,5 +1,9 @@
-# shopper
-A discord shop management tool
+# Run Shopper
+python3 -m DiscordShopBot
+
+or
+
+python -m DiscordShopBot
 # Configure Shopper
 Run tool to create an empty config
 
@@ -57,3 +61,7 @@ Example embed message file
 ```
 
 Add new shops via the Add Shops menu. Make sure to test if you can send embeds to your shops
+# Sending shop messages with Shopper
+Once you have configured your messages and shops, run the Shop Message Sender module. Select which message you wish to send, then press enter. 
+
+Your messages will be send and pinged according to your configuration for each shop.
